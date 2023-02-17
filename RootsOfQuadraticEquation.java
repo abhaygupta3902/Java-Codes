@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.lang.Math;
+
+class RootsOfQuadraticEquation
+{
+	public static void main(String[] args)
+	{
+		int a,b,c,num;
+		double x1,x2;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter value of a , b, c");
+		a=sc.nextInt();
+		b=sc.nextInt();
+		c=sc.nextInt();
+		num=((b*b)-(4*a*c));
+		//System.out.println("The roots are "+Math.sqrt(-num));
+		double sq=Math.sqrt(num);
+		//System.out.println("The roots are "+sq);
+		x1=((-b)+sq)/2*a;
+		x2=((-b)-sq)/2*a;
+		System.out.println("The roots are "+x1+","+x2);
+	}
+}
