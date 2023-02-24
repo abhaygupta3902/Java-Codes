@@ -10,7 +10,7 @@ class ReverseArray
 		int temp=0; //here we have taken a temporary variable 
 		while(temp<n) // this loop will iterate untill variable temp is less than variable n
 		{
-			//the varible i and j will divide the array in groups of the difference of k and revverse the elements by swapping the elements of index i and j
+			//the varible i and j will divide the array in groups by the difference of k and revverse the elements by swapping the elements of index i and j
 			int i=temp; 
 			int j=temp+(k-1);
 
